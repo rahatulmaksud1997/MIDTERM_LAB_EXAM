@@ -23,9 +23,8 @@ app.use(function(req, res, next)
   next();
 });
 
-app.use('/', home);
+app.use('/', login);
 app.use('/signup', signup);
-app.use('/login', login);
 
 
 app.listen(3000, function()
